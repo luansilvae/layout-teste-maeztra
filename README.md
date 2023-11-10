@@ -1,27 +1,94 @@
-# React + TypeScript + Vite
+<div align="center">
+   <h3>Teste Front-end Maeztra</h3>
+</div>
+<br/>
+<div align="center">
+   <a href="https://github.com/luansilvae">
+      <img alt="Made by luansilvae" src="https://img.shields.io/badge/made%20by-luansilvae-purple">
+   </a>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+   <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/luansilvae/layout-teste-maeztra">
 
-Currently, two official plugins are available:
+   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/luansilvae/layout-teste-maeztra">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   <a href="https://github.com/luansilvae/layout-teste-maeztra/commits/main">
+      <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/luansilvae/layout-teste-maeztra">
+   </a>
+   </br>
+   </br>
+   <a href="#-tecnologias-utilizadas">
+      <img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB">
+      <img alt="TypeScript" src="https://img.shields.io/badge/typescript%20-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white">
+      <img alt="SASS" src="https://img.shields.io/badge/SASS%20-hotpink.svg?&style=for-the-badge&logo=SASS&logoColor=white"/>
+   </a>
+</div>
 
-## Expanding the ESLint configuration
+</br>
+<div align="center">
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+  [**Sobre**](#-sobre) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+  [**Tecnologias e ferramentas utilizadas**](#-tecnologias-e-ferramentas-utilizadas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+  [**Instalação e execução**](#-instalação-e-execução) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+  [**Desenvolvimento**](#-desenvolvimento) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+  [**Contato**](#-contato) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 
-- Configure the top-level `parserOptions` property like this:
+</div>
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## 📃 Sobre
+
+Teste prático de Front-end, home page de um e-commerce
+
+## 🔨 Tecnologias e ferramentas utilizadas
+
+Este projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
+
+- [**React**](https://reactjs.org/)
+
+- [**TypeScript**](https://www.typescriptlang.org/)
+
+- [**Sass**](https://sass-lang.com/)
+
+## 🔧 Instalação e execução
+
+Para baixar o código-fonte do projeto em sua máquina, primeiramente terá que ter instalado o [**Git**](https://git-scm.com/).
+
+Com o Git instalado, em seu terminal execute o seguinte comando:
+
+```bash
+git clone https://github.com/luansilvae/layout-teste-maeztra.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Para instalar as dependências é preciso estar dentro da pasta do projeto e terá que ter instalado em sua máquina o [**Node.js**](https://nodejs.org/en/), que vem acompanhado do NPM. Com ele instalado:
+
+Instale as dependências do projeto:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+## 👨‍💻 Desenvolvimento
+
+- Foi utlizado a ContextAPI do React para compartilhar com todos os componentes da aplicação os estados e as funcionalidade do carrinho de compras.
+- Dentro da pasta __src__ há um arquivo chamado [products.json](./src/products.json), ele é usado para simular um retorno de uma api com os dados usados na aplicação.
+
+
+## 🚀 Deploy
+
+O projeto foi hospedado na [Vercel](https://vercel.com/) e pode ser visualizado por essa url [https://layout-teste-maeztra.vercel.app/](https://layout-teste-maeztra.vercel.app/)
+
+### Libs
+- [Swiper](https://swiperjs.com/react): Componentes de slider
+- [React Toastify](https://fkhadra.github.io/react-toastify/introduction): Alertas de toast notification
+
+## 📲 Contato
+
+Entre em contato comigo por e-mail ou pelo meu LinkedIn:
+
+<a href="mailto:luansilvae27@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+<a href="https://www.linkedin.com/in/luansilvae/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>

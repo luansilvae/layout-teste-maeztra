@@ -1,0 +1,166 @@
+@import "../../styles/animations.scss";
+
+@mixin menu-desktop {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+.header {
+  width: 100%;
+  background-color: var(--white);
+  position: sticky;
+  top: 0;
+  z-index: 800;
+
+  &__topBar {
+    height: 24px;
+    background: var(--color-2-500, #353535);
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+
+    &-text {
+      color: var(--white);
+      text-align: center;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px;
+    }
+  }
+  &__container {
+    background: #FFF;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.08);
+    z-index: 200;
+    position: relative;
+  }
+
+  &__content {
+    padding: 24px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0 auto;
+    max-width: 1638px;
+    background: transparent;
+    
+    @include menu-desktop {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 90px;
+      justify-content: space-between;
+    }
+
+    > .toggle-menu-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      > svg {
+        width: 20px;
+        height: 20px;
+      }
+
+      @include menu-desktop {
+        display: none;
+      }
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+
+      @media (min-width: 1024px) {
+        width: 152px;
+      }
+
+      &__img {
+        width: 100%;
+      }
+    }
+
+    .header-menu {
+      display: flex;
+      gap: 40px;
+
+      @media(max-width: 767px) {
+        gap: 30px;
+        margin-left: auto;
+      }
+
+      .menu-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--color-2-500);
+        padding: 10px 0;
+        cursor: pointer;
+
+        text-align: center;
+
+        &--user {
+          position: relative;
+        }
+      }
+
+      &__desktop {
+        display: none;
+        gap: 40px;
+
+        @include menu-desktop {
+          display: flex;
+        }
+      }
+
+      &__mobile {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+
+    .cart-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      gap: 10px;
+
+      &--text {
+        color: var(--color-2-500);
+        font-size: 14px;
+        font-weight: 400;
+
+        @media(max-width: 767px) {
+          display: none;
+        }
+      }
+
+      
+
+      svg {
+        width: 14.536px;
+        height: 16px;
+
+        @media(max-width: 767px) {
+          width: 21px;
+          height: 24px;
+        }
+      }
+    }
+  }
+}
+
+button {
+  background-color: transparent;
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

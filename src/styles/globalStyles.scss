@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+:root {
+  --color-4-500: #EFEFEF;
+  --color-2-500: #353535;
+  --white: #fff;
+  --dark: #222222;
+  --black: #000000;
+  --gray: #999999;
+  --gray-light: #F8F8F8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

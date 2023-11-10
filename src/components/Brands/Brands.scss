@@ -1,0 +1,33 @@
+.brands {
+  padding: 75px 0 0;
+  &__title {
+    color: var(--color-2-500);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  &__container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  &__content {
+    padding: 21px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin: 0 auto;
+    width: 100%;
+
+    @media(max-width: 1500px) {
+      width: max-content;
+    }
+
+    &__item {
+      border-radius: 6px;
+      overflow: hidden;
+    }
+  }
+}

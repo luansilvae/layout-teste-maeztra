@@ -8,6 +8,7 @@ import {
   LinkedinIcon,
   MaeztraLogo,
   MastercardIcon,
+  VTEXLogo,
   VisaIcon,
   YoutubeIcon
 } from "../../components/Icons"
@@ -73,7 +74,7 @@ export const Footer: React.FC = () => {
           <li>
             <a href="#" aria-label="VTEX LOGO" title="Logo VTEX">
               <small>Powered By</small>
-              <img src="https://s3-alpha-sig.figma.com/img/63b8/54bd/0b5cea783a690408465314bfaac62d5e?Expires=1700438400&Signature=FLDwghWntvdfBoHKJKi2i0P81-E9QhO0xvTuc5atjv6nAIq2kWYiAIm4ZhTacD5AHKp8d8sK~dASasXVBKspRLW6094oVT8dBHxpD3PXCGZ1nwTI9b6Y~9wwmrbljXOnosrPgk822-ZbBmR7avukPzmDBPEIdCyC1H6DXlFZP0egMVNaOWHmxTUAypAaSCRhS-kgN1vYr92CpDpREsJ9Vnzh0RIGx4pHAwFIe1hjAS6mxNTvTpP-GaYaf5rWHlnkxTrjagx17XvIn1yWec7Hqw6OX8HIqrmkFNONclNPPfWtqluPZ~97IsalCOllFAdQ2iVcCvh6qy5Lc~MgjBBQZQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="VTEX ICON" />
+              <VTEXLogo />
             </a>
 
             <a href="#" aria-label="Home page" title="Logo Maeztra">

@@ -6,6 +6,7 @@ import { ToastContainer } from "react-toastify"
 import "./styles/globalStyles.scss"
 import "react-toastify/dist/ReactToastify.css"
 import { Footer } from "./components/Footer"
+import WelcomeNewsletter from "./components/WelcomeNewsletter"
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
         pauseOnHover={false}
       />
       <Footer />
+
+      <WelcomeNewsletter />
     </BrowserRouter>
   )
 }

@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Faux Suede Mini Skirt",
     "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
-    "image": "../.github/Produto-01.png",
+    "image": "https://raw.githubusercontent.com/luansilvae/layout-teste-maeztra/main/.github/Produto-01.png",
     "price": {
       "actualValue": 500
     },
@@ -30,7 +30,7 @@
     "id": 2,
     "name": "Ruched Rose Print Mini Skirta",
     "description": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
-    "image": "../.github/Produto-02.png",
+    "image": "https://raw.githubusercontent.com/luansilvae/layout-teste-maeztra/main/.github/Produto-02.png",
     "price": {
       "actualValue": 320
     },
@@ -57,7 +57,7 @@
     "id": 3,
     "name": "Faux Suede Mini Skirt",
     "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
-    "image": "../.github/Produto-01.png",
+    "image": "https://raw.githubusercontent.com/luansilvae/layout-teste-maeztra/main/.github/Produto-01.png",
     "price": {
       "actualValue": 500
     },
@@ -84,7 +84,7 @@
     "id": 4,
     "name": "Ruched Rose Print Mini Skirta",
     "description": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
-    "image": "../.github/Produto-02.png",
+    "image": "https://raw.githubusercontent.com/luansilvae/layout-teste-maeztra/main/.github/Produto-02.png",
     "price": {
       "actualValue": 320
     },

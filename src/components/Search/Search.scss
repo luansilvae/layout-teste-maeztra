@@ -23,7 +23,7 @@
     font-size: 14px;
     border-radius: 8px;
     width: 119px;
-    background: var(--color-1500-faa-500, #faa500);
+    background: var(--color-1500-faa-500, var(--primary));
   }
 
   @media(max-width: 767px) {

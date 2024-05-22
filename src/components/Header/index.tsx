@@ -7,10 +7,11 @@ import { WishIcon, UserIcon, CartIcon, MenuIcon } from "../Icons"
 import { Search } from "../Search"
 import { Nav } from "./Nav"
 import { Cart } from "./Cart"
+import { useCart } from "../../hooks/useCart"
 
 export const Header: React.FC = () => {
   const [openCart, setOpenCart] = useState<boolean>(false)
-
+  const { amountProducts } = useCart()
   const handleOpenCart = useCallback(() => setOpenCart(state => !state), [])
 
   return (
@@ -45,8 +46,16 @@ export const Header: React.FC = () => {
             <Search className="search--mobile" />
 
             <button className="cart-button" onClick={handleOpenCart}>
-              <CartIcon />
-              <span className="cart-button--text">Meu Carrinho</span>
+                <CartIcon />
+              <span className="cart-button--text">
+                Meu Carrinho
+              </span>
+
+              {
+                amountProducts > 0 && (
+                  <span className="cart-button--amount">{amountProducts}</span>
+                )
+              }
             </button>
 
             <Cart openCart={openCart} />

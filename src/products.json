@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Faux Suede Mini Skirt",
     "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
-    "image": "https://s3-alpha-sig.figma.com/img/fe68/8b4a/8a36de6cf9fff367e7503f34e205264c?Expires=1700438400&Signature=IZMgZNEbTUVv1-P-38wO0GE0fXVucCMtapdIlSNDGZ42XatpksoqdsvqT9rkZFOG90HgqzEu6ImbcHq9h6LOl3iBK8tV0GSrbDaVtJ3Lv765x1ogU4vJgrrRKVI-qwemAWiWyerOnq0uckNOOSWn8UxpVW8xDsBgSgmLDxQMmUFGr7BVOZkG5qWM32I~oQwOIgevz~IsCAA3inn0WX7zQZaEg38nBlrc6pT~NHxiRVpx7-Plx7zfzsm-3Hvw5tC-G9AOE0qOS2F0UBL~9RPBGQdly3JRBCk5Ghmlam4CZO~Qo3y45br-gH6bYfFfALBO4fNYdASQZ~iA3g65~czTKg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "image": "../.github/Produto-01.png",
     "price": {
       "actualValue": 500
     },
@@ -30,7 +30,7 @@
     "id": 2,
     "name": "Ruched Rose Print Mini Skirta",
     "description": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
-    "image": "https://s3-alpha-sig.figma.com/img/d565/e7e8/d0ba6e2b4d4829c677785d11f87ee3bd?Expires=1700438400&Signature=LQrC7u1XwuKDHySoDkLbgXBIG4LEr~-87Y13yRifbsLtgEzrZvCkdop2o0cNmPWynMEYMDf8XQSTfHJucgprzC5qLRvTfeD4n1aQW-vFt8dqZahL~214~OfMrwlKfqfCFEK64IoCKb6nL37OdVj-Yiz1nPXYplE9kx4oiDn-EHBH-zALRlon1z7XCUnaHwfX2FshrgjHx3PbIYE0WJfRdLhKZ2ccfVfh~Ynf3FkZMO47OyqGyqP9cZOT935qH1we2pU0dzQYuMZ3hxmKXpM7tT3V9zPsfsTxj3WUOs0kQI0foZHU9qElHBUa50195kslNJX7Pau5bb2opyReid~JyA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "image": "../.github/Produto-02.png",
     "price": {
       "actualValue": 320
     },
@@ -57,7 +57,7 @@
     "id": 3,
     "name": "Faux Suede Mini Skirt",
     "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
-    "image": "https://s3-alpha-sig.figma.com/img/fe68/8b4a/8a36de6cf9fff367e7503f34e205264c?Expires=1700438400&Signature=IZMgZNEbTUVv1-P-38wO0GE0fXVucCMtapdIlSNDGZ42XatpksoqdsvqT9rkZFOG90HgqzEu6ImbcHq9h6LOl3iBK8tV0GSrbDaVtJ3Lv765x1ogU4vJgrrRKVI-qwemAWiWyerOnq0uckNOOSWn8UxpVW8xDsBgSgmLDxQMmUFGr7BVOZkG5qWM32I~oQwOIgevz~IsCAA3inn0WX7zQZaEg38nBlrc6pT~NHxiRVpx7-Plx7zfzsm-3Hvw5tC-G9AOE0qOS2F0UBL~9RPBGQdly3JRBCk5Ghmlam4CZO~Qo3y45br-gH6bYfFfALBO4fNYdASQZ~iA3g65~czTKg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "image": "../.github/Produto-01.png",
     "price": {
       "actualValue": 500
     },
@@ -84,7 +84,7 @@
     "id": 4,
     "name": "Ruched Rose Print Mini Skirta",
     "description": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
-    "image": "https://s3-alpha-sig.figma.com/img/d565/e7e8/d0ba6e2b4d4829c677785d11f87ee3bd?Expires=1700438400&Signature=LQrC7u1XwuKDHySoDkLbgXBIG4LEr~-87Y13yRifbsLtgEzrZvCkdop2o0cNmPWynMEYMDf8XQSTfHJucgprzC5qLRvTfeD4n1aQW-vFt8dqZahL~214~OfMrwlKfqfCFEK64IoCKb6nL37OdVj-Yiz1nPXYplE9kx4oiDn-EHBH-zALRlon1z7XCUnaHwfX2FshrgjHx3PbIYE0WJfRdLhKZ2ccfVfh~Ynf3FkZMO47OyqGyqP9cZOT935qH1we2pU0dzQYuMZ3hxmKXpM7tT3V9zPsfsTxj3WUOs0kQI0foZHU9qElHBUa50195kslNJX7Pau5bb2opyReid~JyA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "image": "../.github/Produto-02.png",
     "price": {
       "actualValue": 320
     },

@@ -30,7 +30,7 @@ nav {
         transition: all 200ms ease-in-out;
 
         &:hover {
-          color: #FAA500;
+          color: var(--primary);
           font-weight: 700;
         }
       }
